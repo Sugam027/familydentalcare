@@ -7,7 +7,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/familydentalcare' element={<PageMiddleware />}>
+          <Route path='/' element={<PageMiddleware />}>
           <Route path='/' element={<Home />}></Route>
           </Route>
         </Routes>

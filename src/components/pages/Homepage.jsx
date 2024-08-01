@@ -141,7 +141,7 @@ const Home = () => {
       <div className="our-dentist">
       {teams && teams.map((team, index) =>{
         return(
-          <div className="our-dentist-images">
+          <div className="our-dentist-images" key={index}>
             <img src={team} alt="" key={index}/>
           </div>
         )
